@@ -1,0 +1,61 @@
+
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12)
+}
+img{
+  width: 200px;
+  height:200px;
+  border-radius: 50%;
+  padding-bottom: 1rem;
+}
+
+.App ul{
+  list-style: none;
+  margin-bottom: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.App ul li{
+  margin-bottom: 10px;
+}
+.App  ul li i{
+  margin-right: 10px;
+}
+
+.hijo  button{
+  margin: 0 auto;
+  display: flex;
+  padding: 20px;
+  border-radius: 50%;
+  border: none;
+  background: greenyellow;
+  width:60px;
+  height:60px;
+  cursor: pointer;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+
+}
+.fa-shuffle{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width:10px;
+  height:10px;
+}
+.card {
+  padding: 2em;
+}
+
